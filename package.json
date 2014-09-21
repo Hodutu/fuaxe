@@ -7,7 +7,8 @@
   "window": {
     "toolbar": true,
     "width": 800,
-    "height": 600
+    "height": 600,
+    "show": false
   },
   "devDependencies": {
     "assert": "^1.1.2",

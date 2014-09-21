@@ -6,13 +6,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     exec: {
       open: {
-        command : 'open webkitbuilds/releases/hodutu/mac/hodutu.app'
-      },
-      generate_list: {
-        command : 'node tools/tvshow-list.js'
-      },
-      json2nedb: {
-        command : 'node tools/json-to-nedb.js'
+        command : 'open webkitbuilds/releases/fuaxe/mac/fuaxe.app'
       },
       dependencies: {
         /*

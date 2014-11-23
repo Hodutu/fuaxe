@@ -2,7 +2,7 @@
 
 var request = require('request');
 
-module.export = function(cb){
+module.exports = function(cb) {
   request(
     'https://raw.githubusercontent.com/michalbe/tv-series/master/data/data.js',
     function (error, response, body) {
@@ -10,8 +10,7 @@ module.export = function(cb){
         cb(error);
         return;
       }
-
-      cb(null, JSON.parse(body));
+      cb(null, JSON.parse(body.replace('module.exports = ', '')));
     }
   );
 };

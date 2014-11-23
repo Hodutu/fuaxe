@@ -24,4 +24,4 @@ var checkShow = function(show) {
       }
     });
   }
-}
+};

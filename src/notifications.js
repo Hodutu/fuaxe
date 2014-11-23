@@ -2,10 +2,10 @@
 
 var notifier = require('node-notifier');
 
-module.exports = function(){
+module.exports = function(title){
   notifier.notify({
-    title: 'My awesome title',
-    message: 'Hello from node, Mr. User!',
+    title: title,
+    message: 'New episode found!',
 //    icon: path.join(__dirname, 'coulson.jpg'), // absolute path (not balloons)
     sound: true, // Only Notification Center or Windows Toasters
     wait: true // wait with callback until user action is taken on notification

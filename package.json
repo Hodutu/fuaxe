@@ -7,8 +7,8 @@
   "window": {
     "toolbar": true,
     "width": 800,
-    "height": 600
-
+    "height": 600,
+    "show": false
   },
   "devDependencies": {
     "assert": "^1.1.2",
@@ -23,6 +23,8 @@
     "lint": "node node_modules/jshint/bin/jshint ."
   },
   "dependencies": {
-    "node-notifier": "^4.0.2"
+    "node-notifier": "^4.0.2",
+    "nr-of-episodes": "0.0.2",
+    "request": "^2.48.0"
   }
 }
